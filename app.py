@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import datetime
 
-app = Flask("my_app")  # Replace "my_app" with the desired name of your Flask application
+app = Flask("my_app")  #  "my_app"  name of Flask application
 
 @app.route('/api', methods=['GET'])
 def get_info():
