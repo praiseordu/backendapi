@@ -9,8 +9,8 @@ def get_info():
     track = "backend"  # Set the track to "backend"
     current_day = datetime.datetime.now().strftime('%A')
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
-    github_file_url = "https://github.com/praiseordu/repo/blob/main/app.py"
-    github_repo_url = "https://github.com/praiseordu/repo"
+    github_file_url = "https://github.com/praiseordu/backendapi/blob/main/app.py"
+    github_repo_url = "https://github.com/praiseordu/backendapi"
 
     response_data = {
         "slack_name": slack_name,
